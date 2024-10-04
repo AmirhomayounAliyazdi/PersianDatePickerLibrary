@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <!-- Default Style for PersianDatePicker -->
-    <Style TargetType="{x:Type controls:PersianDatePicker}" BasedOn="{StaticResource {x:Type DatePicker}}">
+    <Style TargetType="{x:Type controls:PersianDatePicker}">
         <!-- You can add custom setters or override templates here if needed -->
     </Style>
 

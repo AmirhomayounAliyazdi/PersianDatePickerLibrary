@@ -54,6 +54,14 @@ namespace PersianDatePickerLibrary.Controls
         }
 
         /// <summary>
+        /// Static constructor to override the DefaultStyleKey.
+        /// </summary>
+        static PersianDatePicker()
+        {
+            DefaultStyleKeyProperty.OverrideMetadata(typeof(PersianDatePicker), new FrameworkPropertyMetadata(typeof(PersianDatePicker)));
+        }
+
+        /// <summary>
         /// Initializes a new instance of the PersianDatePicker class.
         /// </summary>
         public PersianDatePicker()
