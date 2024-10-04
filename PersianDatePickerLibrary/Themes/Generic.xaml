@@ -1,0 +1,11 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:controls="clr-namespace:PersianDatePickerLibrary.Controls;assembly=PersianDatePickerLibrary"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Default Style for PersianDatePicker -->
+    <Style TargetType="{x:Type controls:PersianDatePicker}" BasedOn="{StaticResource {x:Type DatePicker}}">
+        <!-- You can add custom setters or override templates here if needed -->
+    </Style>
+
+</ResourceDictionary>
